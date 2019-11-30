@@ -1,0 +1,116 @@
+
+body{
+	background-color: #000;
+}
+
+.clothes-holder{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	top: 0px;
+	background-color: inherit;
+	text-align: center;
+}
+
+#washing-clothes-holder{
+	top: 50%;
+	background-color: #111;
+}
+
+.clothes-holder-head{
+	padding-top: 90px;
+	padding-left: 90px;
+	color: #fff;
+	font-size: 42pt;
+	text-align: left;
+}
+
+.ui-complete-base{
+	background-color: #222;
+	margin: auto;
+	margin-top: 50px;
+	width: 500px;
+	height: 35px;
+}
+
+.ui-complete-bar{
+	font-size: 16pt;
+	background-color: #2ecc81;
+	line-height: 35px;
+}
+
+#washing-clothes-holder .ui-complete-bar{
+	background-color: #ff7177;
+}
+
+#hide-all{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	height: 100%;
+	width: 100%;	
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+}
+
+.cloth{
+	display: inline-block;
+	width: 220px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 3px;
+	margin-top: 30px;
+	position: relative;
+	top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.cloth img{
+	position: relative;
+	width: 50%;
+	margin-top: 40px;
+}
+
+.cloth-name{
+	margin-top: 30px;
+	font-family: nunito;
+	font-weight: 300;
+	color: #eee;
+	font-size: 14pt;
+}
+
+.cloth-color{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 12pt;
+}
+
+.no-clothes{
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 120px;
+	font-size: 20pt;
+	font-weight: 300;
+	color: #eee;
+	border-radius: 50px;
+	background-color: rgba(255,255,255,0.08);
+	width: 60%;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+
+#low-clothes{
+	width: 60%;
+	margin: auto;
+	margin-top: 100px;
+	font-size: 17pt;
+	border-radius: 6px;
+	background-color: #ff7177;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: rgba(0,0,0,0.6);
+	line-height: 27px;
+	font-weight: 500;
+}
